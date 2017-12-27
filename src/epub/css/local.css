@@ -4,3 +4,13 @@
 abbr.name{
 	white-space: nowrap;
 }
+
+[epub|type~="subtitle"]{
+	font-variant: small-caps;
+}
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+
