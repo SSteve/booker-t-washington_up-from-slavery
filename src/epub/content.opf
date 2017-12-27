@@ -28,6 +28,7 @@
 		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/2376</meta>
 		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/2376</meta>
 		<meta property="se:subject">Autobiography</meta>
+		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">Booker T. Washington’s autobiographical account of his life from slavery through becoming an educator and champion of education for black and other disadvantaged Americans.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"> LONGDESCRIPTION </meta>
@@ -35,6 +36,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2376</dc:source>
 		<dc:source>https://archive.org/details/cu31924008596490</dc:source>
+		<dc:source>https://books.google.com/books?id=xN45ZsUMgKEC</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Up_from_Slavery</meta>
@@ -45,6 +47,13 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Booker_T._Washington</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79063604</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="author-of-introduction">Walter H. Page</dc:contributor>
+		<meta property="file-as" refines="#author-of-introduction">Page, Walter H.</meta>
+		<meta property="se:name.person.full-name" refines="#author-of-introduction">Walter Hines Page</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/Walter_Hines_Page</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n50051834</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
 		<dc:contributor id="artist">Charles T. Webber</dc:contributor>
 		<meta property="file-as" refines="#artist">Webber, Charles T.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://americanart.si.edu/artist/charles-t-webber-5268</meta>
