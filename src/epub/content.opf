@@ -30,9 +30,7 @@
 		<meta property="se:subject">Autobiography</meta>
 		<dc:description id="description">Booker T. Washington’s autobiographical account of his life from slavery through becoming an educator and champion of education for black and other disadvantaged Americans.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONGDESCRIPTION
-		]]></meta>
+		<meta id="long-description" property="se:long-description" refines="#description"> LONGDESCRIPTION </meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2376</dc:source>
