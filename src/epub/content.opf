@@ -54,6 +54,7 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/Walter_Hines_Page</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n50051834</meta>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Charles T. Webber</dc:contributor>
 		<meta property="file-as" refines="#artist">Webber, Charles T.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://americanart.si.edu/artist/charles-t-webber-5268</meta>
@@ -107,6 +108,7 @@
 		<item href="text/chapter-17.xhtml" id="chapter-17.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
@@ -138,6 +140,7 @@
 		<itemref idref="chapter-15.xhtml"/>
 		<itemref idref="chapter-16.xhtml"/>
 		<itemref idref="chapter-17.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
