@@ -15,3 +15,7 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
+[epub|type~="z3998:persona"]{
+	font-variant: small-caps;
+	text-transform: lowercase;
+}
